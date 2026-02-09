@@ -1,1 +1,17 @@
 PDF Metadata 2 - helps scan and display all the information of the file
+https://www.metadata2go.com/
+
+Google Dorking - search specific names or things
+Example: 
+site:facebook.com "name"
+site:pastebin.com password
+filetype:pdf "confidential"
+
+Reverse Image Searcg
+-Yandex
+-Google image
+
+Username Recon
+-whatsmyname.me
+-namechk / displays availability of domain names
+
