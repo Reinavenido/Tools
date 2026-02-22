@@ -15,3 +15,6 @@ Username Recon
 -whatsmyname.me
 -namechk / displays availability of domain names
 
+exiftool
+-shows file info such as gps loc
+-shows author like copyright
