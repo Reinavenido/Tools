@@ -1,0 +1,25 @@
+             GOOGLE DORKING
+
+A search technique that uses advanced search operators to refine Google search results
+Google automatically indexes files making them searchable if you know how to look for them.
+
+Important note, Google Dorking is a powerful tool that must be used ethically. 
+It is legal when searching for publicly available data. On the other hand, using it to access restricted or unauthorized content violates the Terms of Service (ToS) and could be illegal.
+
+Basic search operators:
+site: - Used to limit results to a specific website. 
+
+inurl: - Used to find pages with a specific word in the URL.
+
+intitle: - Utilized for searches for keywords in the page title.
+
+intext: - Utilized to search for a keyword within the webpage content itself.
+
+filetype: - Used to find a specific filetype(s) like DOCs, PDFs, XLSX, etc. 
+
+OR - Used to search for either of the words (Example.com OR Examples.com).
+
+AND - Used to make sure that both (or more) words must be present (Alice AND Bob).
+
+(-) The Minus Sign - Utilized to exclude word(s) from the results (Example.com -Press-release)
+
