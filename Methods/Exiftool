@@ -1,0 +1,38 @@
+Exiftool commands:
+
+Read all metadata:
+exiftool filename.jpg
+
+To read metadata from multiple files:
+exiftool a.jpg b.jpg
+
+To read metadata from all files in a directory:
+exiftool dir_name
+
+Read specific tags:
+exiftool -Tag1 -Tag2 filename.jpg
+Example: exiftool -ImageSize -ExposureTime b.jpg
+
+Write or modify a tag:
+exiftool -TAG=VALUE filename.jpg
+Example: exiftool -artist="Phil Harvey" a.jpg
+By default, the original file is preserved with _original appended to its name.
+
+Delete a tag:
+exiftool -TAG= filename.jpg
+Example: exiftool -comment= a.jpg
+
+Delete all metadata:
+exiftool -all= filename.jpg 
+
+Advanced Commands
+Copy tags from one file to another:
+exiftool -tagsFromFile src.jpg dst.jpg
+
+Rename files based on a tag:
+exiftool '-filename<CreateDate' -d %Y%m%d_%H%M%S.%%e dir
+This command renames all files in the specified directory (dir) to a format like YYYYMMDD_HHMMSS.EXT using the CreateDate value.
+
+Move or copy files into directories based on a tag:
+exiftool -o . '-Directory<CreateDate' -d %Y/%m/ dir
+This command copies files from dir into a directory hierarchy based on the year and month of the CreateDate (e.g., ./2024/03/). The -o . ensures files are copied, not moved, and the original file extension is preserved.
