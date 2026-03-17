@@ -7,7 +7,7 @@ site:facebook.com "name"
 site:pastebin.com password
 filetype:pdf "confidential"
 
-Reverse Image Searcg
+Reverse Image Search
 -Yandex
 -Google image
 
@@ -18,3 +18,10 @@ Username Recon
 exiftool
 -shows file info such as gps loc
 -shows author like copyright
+
+Diffchecker
+-a data comparison tool that computes and shows the difference between the contents of file
+
+dCode.fr
+-a set of more than 900 tools to solve puzzles and coded messages
+
