@@ -1,0 +1,3 @@
+This tool can help decipher messages like:
+QEJ{Z@kdoxqr1xqflkp!} to THM{C@ngratu1ations!}
+
